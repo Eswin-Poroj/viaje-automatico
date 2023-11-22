@@ -10,13 +10,13 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/personasTrabajando.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Soy un estudiante de Ingeniería en Sistemas, con experiencia en Desarrollo Web. Me apasiona el desarrollo de software y la tecnología en general. Me gusta aprender cosas nuevas y compartir mis conocimientos con los demás. Actualmente estoy aprendiendo sobre el desarrollo de aplicaciones móviles con React Native.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
+  "Desarrollo Web",
+  "Experiencia en Linux",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Estudiante de Platzi",
+  "Git y GitHub",
+  "C++",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Me apasiona el desarrollo de software y la tecnología en general. Estoy empezando mi camino en el mundo de la tecnología, pero sé que podré llegar muy lejos. Actualmente no gozo de mucha experiencia, pero estoy dispuesto a aprender y a mejorar cada día.";
 
 const About = () => {
   return (
@@ -60,7 +60,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre Mí</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
